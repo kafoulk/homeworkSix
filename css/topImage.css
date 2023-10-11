@@ -1,0 +1,9 @@
+.topImage {
+  width: 980px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  background-image: url("../images/76fb267b620388f239c4e478d18efb70.png");
+}
