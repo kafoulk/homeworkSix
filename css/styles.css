@@ -59,7 +59,7 @@ nav .links {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-right: 100px;
+  margin-right: 130px;
   color: black;
 }
 nav .links a {
@@ -787,6 +787,818 @@ footer .footerInfo .footerSocials a {
             justify-content: space-evenly;
     right: 0;
     top: 30px;
+  }
+}
+.site-container .tourPackageTop {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.site-container .tourPackageTop .topTourImage {
+  width: 980px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 250px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.1))), url("../../images/tour-01.png");
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.site-container .tourPackageTop .topTourImage .tourTitle {
+  font-family: proximaThin;
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.site-container .tourPackageTop .topTourImage .tourPrice {
+  font-family: proximaThin;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+}
+.site-container .imagesContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 167px;
+}
+.site-container .imagesContainer .imageRow {
+  width: 980px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.site-container .imagesContainer .imageRow .imageOne {
+  width: 300px;
+  height: 350px;
+  background-color: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)));
+}
+.site-container .imagesContainer .imageRow .imageTwo {
+  width: 300px;
+  height: 350px;
+}
+.site-container .imagesContainer .imageRow .imageThree {
+  width: 300px;
+  height: 350px;
+}
+.site-container .tourDays {
+  width: 77%;
+  min-height: 775px;
+  margin: 0 auto;
+  margin-top: -50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.site-container .tourDays .dayOne h1 {
+  font-family: proximaThin;
+  font-size: 60px;
+}
+.site-container .tourDays .dayOne h4 {
+  font-size: 16px;
+}
+.site-container .tourDays .dayTwo h1 {
+  font-family: proximaThin;
+  font-size: 60px;
+}
+.site-container .tourDays .dayTwo h4 {
+  font-size: 16px;
+}
+.site-container .tourDays .dayThree h1 {
+  font-family: proximaThin;
+  font-size: 60px;
+}
+.site-container .tourDays .dayThree h4 {
+  font-size: 16px;
+}
+.site-container .button {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -50px;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.site-container .button .bookNowButton {
+  background-color: #79addc;
+  border-radius: 20px;
+  color: white;
+  padding: 11px 21px;
+  border: none;
+  font-family: gillSans;
+  text-transform: uppercase;
+  margin-top: 60px;
+  width: 133px;
+  height: 40px;
+  border-radius: 30px;
+  font-family: gillSans;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.specialOffersContainer {
+  max-width: 77%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.specialOffersContainer .offersHeading {
+  width: 100%;
+  font-family: proximaThin;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 100px;
+}
+.specialOffersContainer .specialOfferPackages {
+  width: 100%;
+  height: 680px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+.specialOffersContainer .specialOfferPackages .barcelona {
+  width: 540px;
+  height: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.specialOffersContainer .specialOfferPackages .barcelona img {
+  width: 200px;
+  height: 100%;
+}
+.specialOffersContainer .specialOfferPackages .barcelona .offerText {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  margin-left: 20px;
+  text-align: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.specialOffersContainer .specialOfferPackages .barcelona .offerText .offerTitle {
+  width: 100%;
+  font-family: proximaThin;
+  font-size: 30px;
+  text-align: left;
+}
+.specialOffersContainer .specialOfferPackages .barcelona .offerText .offerDiscount {
+  width: 100%;
+  font-family: proximaThin;
+  font-size: 20px;
+  text-align: right;
+  color: #FF7D38;
+}
+.specialOffersContainer .specialOfferPackages .barcelona .offerText .offerInfo {
+  width: 92%;
+  font-family: gillSans;
+  font-size: 16px;
+  text-align: left;
+}
+.specialOffersContainer .specialOfferPackages .barcelona .offerText .learnMore {
+  background-color: #79addc;
+  border-radius: 20px;
+  color: white;
+  padding: 11px 21px;
+  border: none;
+  font-family: gillSans;
+  text-transform: uppercase;
+  margin-top: 60px;
+  width: 133px;
+  height: 40px;
+  border-radius: 30px;
+  font-family: gillSans;
+  font-size: 15px;
+}
+.specialOffersContainer .specialOfferPackages .bangkok {
+  width: 540px;
+  height: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.specialOffersContainer .specialOfferPackages .bangkok img {
+  width: 200px;
+  height: 100%;
+}
+.specialOffersContainer .specialOfferPackages .bangkok .offerText {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  margin-left: 20px;
+  text-align: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.specialOffersContainer .specialOfferPackages .bangkok .offerText .offerTitle {
+  width: 100%;
+  font-family: proximaThin;
+  font-size: 30px;
+  text-align: left;
+}
+.specialOffersContainer .specialOfferPackages .bangkok .offerText .offerDiscount {
+  width: 100%;
+  font-family: proximaThin;
+  font-size: 20px;
+  text-align: right;
+  color: #FF7D38;
+}
+.specialOffersContainer .specialOfferPackages .bangkok .offerText .offerInfo {
+  width: 92%;
+  font-family: gillSans;
+  font-size: 16px;
+  text-align: left;
+}
+.specialOffersContainer .specialOfferPackages .bangkok .offerText .learnMore {
+  background-color: #79addc;
+  border-radius: 20px;
+  color: white;
+  padding: 11px 21px;
+  border: none;
+  font-family: gillSans;
+  text-transform: uppercase;
+  margin-top: 60px;
+  width: 133px;
+  height: 40px;
+  border-radius: 30px;
+  font-family: gillSans;
+  font-size: 15px;
+}
+
+.blogContainer {
+  max-width: 77%;
+  min-height: 980px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.blogContainer .blogHeading {
+  width: 100%;
+  font-family: proximaThin;
+  font-size: 30px;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.blogContainer .blogPosts {
+  width: 100%;
+  height: 680px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.blogContainer .blogPosts .blogPostOne {
+  width: 100%;
+  height: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.blogContainer .blogPosts .blogPostOne .blogTop {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+.blogContainer .blogPosts .blogPostOne .blogTop .blogDate {
+  width: 60px;
+  height: 60px;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  font-family: gillSans;
+  color: white;
+}
+.blogContainer .blogPosts .blogPostOne .blogTop .blogDate .date {
+  font-size: 22px;
+  font-family: gillSans;
+}
+.blogContainer .blogPosts .blogPostOne .blogTop img {
+  width: 900px;
+  height: 100%;
+}
+.blogContainer .blogPosts .blogPostOne .blogText {
+  width: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  margin-left: 85px;
+  text-align: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.blogContainer .blogPosts .blogPostOne .blogText .blogTitle {
+  width: 100%;
+  font-family: proximaThin;
+  font-size: 30px;
+  text-align: left;
+}
+.blogContainer .blogPosts .blogPostOne .blogText .blogInfo {
+  width: 100%;
+  font-family: gillSans;
+  font-size: 13px;
+  text-align: left;
+}
+.blogContainer .blogPosts .blogPostTwo {
+  width: 100%;
+  height: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.blogContainer .blogPosts .blogPostTwo .blogTop {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+.blogContainer .blogPosts .blogPostTwo .blogTop .blogDate {
+  width: 60px;
+  height: 60px;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  font-family: gillSans;
+  color: white;
+}
+.blogContainer .blogPosts .blogPostTwo .blogTop .blogDate .date {
+  font-size: 22px;
+  font-family: gillSans;
+}
+.blogContainer .blogPosts .blogPostTwo .blogTop img {
+  width: 900px;
+  height: 100%;
+}
+.blogContainer .blogPosts .blogPostTwo .blogText {
+  width: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  margin-left: 85px;
+  text-align: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.blogContainer .blogPosts .blogPostTwo .blogText .blogTitle {
+  width: 100%;
+  font-family: proximaThin;
+  font-size: 30px;
+  text-align: left;
+}
+.blogContainer .blogPosts .blogPostTwo .blogText .blogInfo {
+  width: 100%;
+  font-family: gillSans;
+  font-size: 13px;
+  text-align: left;
+}
+
+.contactPageContainer {
+  max-width: 77%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contactPageContainer .contactHeading {
+  width: 100%;
+  font-family: proximaThin;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.contactPageContainer .contactInfo {
+  width: 100%;
+  min-height: 637px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.contactPageContainer .contactInfo .leftSide {
+  width: 50%;
+  height: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contactPageContainer .contactInfo .leftSide img {
+  width: 400px;
+  height: 450px;
+}
+.contactPageContainer .contactInfo .leftSide .mapText {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  margin-top: 34px;
+  text-align: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  line-height: 8px;
+}
+.contactPageContainer .contactInfo .rightSide {
+  width: 50%;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: aquamarine;
+}
+.contactPageContainer .contactInfo .rightSide .message {
+  width: 100%;
+  min-height: 800px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: left;
+}
+.contactPageContainer .contactInfo .rightSide .message .contactFormWrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.contactPageContainer .contactInfo .rightSide .message .contactFormWrapper .messageInfo {
+  width: 490px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  font-family: gillSans;
+  font-size: 18px;
+  margin-top: -20px;
+}
+.contactPageContainer .contactInfo .rightSide .message .contactFormWrapper .messageInfo input {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: left;
+      align-content: left;
+  margin-top: 20px;
+  border: solid 1px #79ADDC;
+  color: black;
+  font-family: gillSans;
+  font-size: 18px;
+}
+.contactPageContainer .contactInfo .rightSide .message .contactFormWrapper .messageInfo input .messageBox {
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  border: solid 1px #79ADDC;
+  font-family: gillSans;
+  font-size: 18px;
+}
+.contactPageContainer .contactInfo .rightSide .message .contactFormWrapper input {
+  max-width: 490px;
+  height: 60px;
+}
+.contactPageContainer .contactInfo .rightSide .message .contactFormWrapper .sendMessage {
+  background-color: #79ADDC;
+  margin-top: 40px;
+  width: 170px;
+  height: 60px;
+  color: white;
+  font-family: gillSans;
+  font-size: 16px;
+  border: none;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 760px) {
+  .contactPageContainer {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+  }
+  .contactPageContainer .contactHeading {
+    margin-left: -30px;
+  }
+  .contactPageContainer .contactInfo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .contactPageContainer .contactInfo .leftSide {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+  }
+  .contactPageContainer .contactInfo .leftSide .mapText {
+    width: 100%;
+    height: 170px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    margin-left: -30px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .contactPageContainer .contactInfo .rightSide {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-align: left;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-top: 350px;
+    margin-bottom: -300px;
+  }
+  .contactPageContainer .contactInfo .rightSide .message .contactFormWrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contactPageContainer .contactInfo .rightSide .message .contactFormWrapper .messageInfo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+  .contactPageContainer .contactInfo .rightSide .message .contactFormWrapper .sendMessage {
+    background-color: #79addc;
+    border-radius: 20px;
+    color: white;
+    padding: 11px 21px;
+    border: none;
+    font-family: gillSans;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    width: 100%;
   }
 }
 @font-face {
